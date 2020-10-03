@@ -1,23 +1,16 @@
 <script lang="ts">
-	import { Component } from '@gabio/design-svelte'
+	import { GioTitle } from '@gabio/design-svelte'
 </script>
 
 <main>
-	<Component></Component>
+	<GioTitle centered>Hellio, world!</GioTitle>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
 
 <style lang="scss">
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
+	@import '@gabio/design-svelte/src/styles/reset';
 
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
+	:root {
+		font-size: 16px; // for adjusting rem units
 	}
 </style>
