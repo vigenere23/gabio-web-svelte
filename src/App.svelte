@@ -14,6 +14,18 @@
 				<GioButton><span>Home</span><GioIcon name="home" /></GioButton>
 				<GioButton dark><GioIcon name="github" /><span>Github</span></GioButton>
 				<GioCodeBlock language="ruby" code={`one dark`}></GioCodeBlock>
+				<GioBodyText>
+					<GioList>
+						<GioListItem>
+							Hello!
+							<GioList>
+								<GioListItem>Hello!</GioListItem>
+								<GioListItem>Hello!</GioListItem>
+							</GioList>
+						</GioListItem>
+						<GioListItem>Hello!</GioListItem>
+					</GioList>
+				</GioBodyText>
 			</GioContent>
 		</GioSection>
 	</GioWebPage>
@@ -35,7 +47,9 @@
 		GioCodeBlock,
 		GioButton,
 		GioSmartLink,
-		GioIcon
+		GioIcon,
+		GioList,
+		GioListItem
 	} from '@gabio/design-svelte'
 
 	const dark = false
