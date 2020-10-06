@@ -5,7 +5,7 @@ import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 import sizes from 'rollup-plugin-sizes'
 import sveltePreprocess from 'svelte-preprocess'
-import typescript from '@rollup/plugin-typescript'
+import typescript from '@wessberg/rollup-plugin-ts'
 
 const production = !process.env.ROLLUP_WATCH
 

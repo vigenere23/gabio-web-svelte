@@ -4,15 +4,15 @@
 			<GioContent>
 				<GioTitle {dark} centered>Hello, world!</GioTitle>
 				<GioSubtitle {dark}>Como estas?</GioSubtitle>
-				<GioText {dark}>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to <GioTag {dark}>learn</GioTag><GioTag {dark}>learn</GioTag> how to build Svelte apps.</GioText>
+				<GioText {dark}>Visit the <GioSmartLink href="https://svelte.dev/tutorial">Svelte tutorial</GioSmartLink> to <GioTag {dark}>learn</GioTag><GioTag {dark}>learn</GioTag> how to build Svelte apps.</GioText>
 				<GioBodyText {dark}>Some body told <GioInlineCode {dark}>me there waaas an</GioInlineCode> empty street somewhere that I didn't want to jaaaaaaaam...</GioBodyText>
 				<GioCaption {dark}>Click here for more!</GioCaption>
 				<GioHeading {dark} level={1}>Yooo bros!</GioHeading>
 				<GioHeading {dark} level={2}>Yooo bros! <GioTag {dark}>Svelte</GioTag></GioHeading>
 				<GioHeading {dark} level={3}>Yooo bros!</GioHeading>
 				<GioHeading {dark} level={4}>Yooo bros!</GioHeading>
-				<!-- <GioButton>Press me</GioButton> -->
-				<!-- <GioButton dark>Press me</GioButton> -->
+				<GioButton>Press me</GioButton>
+				<GioButton dark>Press me</GioButton>
 				<GioCodeBlock language="ruby" code={`one dark`}></GioCodeBlock>
 			</GioContent>
 		</GioSection>
@@ -33,8 +33,8 @@
 		GioSubtitle,
 		GioWebPage,
 		GioCodeBlock,
-		// GioButton,
-		// GioSmartLink
+		GioButton,
+		GioSmartLink
 	} from '@gabio/design-svelte'
 
 	const dark = false
