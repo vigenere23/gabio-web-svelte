@@ -11,8 +11,8 @@
 				<GioHeading {dark} level={2}>Yooo bros! <GioTag {dark}>Svelte</GioTag></GioHeading>
 				<GioHeading {dark} level={3}>Yooo bros!</GioHeading>
 				<GioHeading {dark} level={4}>Yooo bros!</GioHeading>
-				<GioButton>Press me</GioButton>
-				<GioButton dark>Press me</GioButton>
+				<GioButton><span>Home</span><GioIcon name="home" /></GioButton>
+				<GioButton dark><GioIcon name="github" /><span>Github</span></GioButton>
 				<GioCodeBlock language="ruby" code={`one dark`}></GioCodeBlock>
 			</GioContent>
 		</GioSection>
@@ -34,7 +34,8 @@
 		GioWebPage,
 		GioCodeBlock,
 		GioButton,
-		GioSmartLink
+		GioSmartLink,
+		GioIcon
 	} from '@gabio/design-svelte'
 
 	const dark = false

@@ -26,6 +26,8 @@
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "sirv-cli": "^1.0.0"
   }
 }
