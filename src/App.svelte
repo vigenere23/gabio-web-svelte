@@ -11,6 +11,9 @@
 				<GioHeading {dark} level={2}>Yooo bros! <GioTag {dark}>Svelte</GioTag></GioHeading>
 				<GioHeading {dark} level={3}>Yooo bros!</GioHeading>
 				<GioHeading {dark} level={4}>Yooo bros!</GioHeading>
+				<!-- <GioButton>Press me</GioButton> -->
+				<!-- <GioButton dark>Press me</GioButton> -->
+				<GioCodeBlock language="ruby" code={`one dark`}></GioCodeBlock>
 			</GioContent>
 		</GioSection>
 	</GioWebPage>
@@ -28,16 +31,16 @@
 		GioContent,
 		GioTag,
 		GioSubtitle,
-		GioWebPage
+		GioWebPage,
+		GioCodeBlock,
+		// GioButton,
+		// GioSmartLink
 	} from '@gabio/design-svelte'
 
 	const dark = false
 </script>
 
-<style lang="scss">
+<style lang="scss" global>
 	@import '@gabio/design-svelte/src/styles/reset';
-
-	:root {
-		font-size: 16px; // for adjusting rem units
-	}
+	@import '@gabio/design-svelte/src/styles/code-themes/one-dark-prism';
 </style>
