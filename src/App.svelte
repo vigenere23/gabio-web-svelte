@@ -1,4 +1,7 @@
-<Router {routes} on:conditionsFailed={conditionsFailed} />
+<Router
+	{routes}
+	restoreScrollState
+	on:conditionsFailed={conditionsFailed} />
 
 <script>
   import Router, { replace } from 'svelte-spa-router'
