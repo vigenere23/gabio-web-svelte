@@ -12,7 +12,7 @@
 				<GioHeading {dark} level={3}>Yooo bros!</GioHeading>
 				<GioHeading {dark} level={4}>Yooo bros!</GioHeading>
 				<GioButton><span>Home</span><GioIcon name="home" /></GioButton>
-				<GioButton dark><GioIcon name="github" /><span>Github</span></GioButton>
+				<GioButton dark href="http://google.com"><GioIcon name="github" /><span>Github</span></GioButton>
 				<GioCodeBlock language="ruby" code={`one dark`}></GioCodeBlock>
 				<GioBodyText>
 					<GioList>
@@ -27,11 +27,18 @@
 					</GioList>
 				</GioBodyText>
 				<GioCard href="http://google.com" title="Project Luna" desc="Una escapada della teritoria commo esta la vida satina petina magnana" tags={['vue', 'react', 'svelte']}>
-					<img slot="image" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png">
+					<div slot="image">
+						<GioImage desc="An image" srcs={['images/cooky.png']} objectFit="contain"></GioImage>
+					</div>
 					<div slot="actions">
 						<GioButton size="small" dark><GioIcon name="github" /><span>Github</span></GioButton>
 					</div>
 				</GioCard>
+				<GioCaptionedImage caption="yoooooooo" width="60%">
+					<div slot="image">
+						<GioImage desc="An image" srcs={['images/glow4002.png']}></GioImage>
+					</div>
+				</GioCaptionedImage>
 			</GioContent>
 		</GioSection>
 	</GioWebPage>
@@ -56,7 +63,9 @@
 		GioIcon,
 		GioList,
 		GioListItem,
-		GioCard
+		GioCard,
+		GioImage,
+		GioCaptionedImage
 	} from '@gabio/design-svelte'
 
 	const dark = false
