@@ -6,6 +6,7 @@ import { terser } from 'rollup-plugin-terser'
 import sizes from 'rollup-plugin-sizes'
 import sveltePreprocess from 'svelte-preprocess'
 import typescript from '@wessberg/rollup-plugin-ts'
+import replace from '@rollup/plugin-replace'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -43,6 +44,9 @@ export default {
     file: 'public/build/bundle.js'
   },
   plugins: [
+    replace({
+      'process.env.ROLLUP_WATCH': !production
+    }),
     svelte({
       // enable run-time checks when not in production
       dev: !production,

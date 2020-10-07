@@ -1,8 +1,12 @@
-<Router {routes} />
+<Router {routes} on:conditionsFailed={conditionsFailed} />
 
 <script>
-  import Router from 'svelte-spa-router'
+  import Router, { replace } from 'svelte-spa-router'
 	import { routes } from './routes'
+
+	function conditionsFailed() {
+		replace('/404')
+	}
 </script>
 
 <style lang="scss" global>
