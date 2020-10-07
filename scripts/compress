@@ -1,0 +1,8 @@
+#!/bin/bash
+
+files=$@
+echo -e "\nFiles to be copied :"
+echo -e "$files" | tr " " "\n"
+for file in $files; do
+  cwebp -mt -exact "$file" -o "${file%.png}.webp"
+done

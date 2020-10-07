@@ -7,6 +7,7 @@ import sizes from 'rollup-plugin-sizes'
 import sveltePreprocess from 'svelte-preprocess'
 import typescript from '@wessberg/rollup-plugin-ts'
 import replace from '@rollup/plugin-replace'
+import nodePolyfills from 'rollup-plugin-node-polyfills'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -47,6 +48,7 @@ export default {
     replace({
       'process.env.ROLLUP_WATCH': !production
     }),
+    nodePolyfills(),
     svelte({
       // enable run-time checks when not in production
       dev: !production,

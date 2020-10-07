@@ -6,10 +6,7 @@
         <GioSubtitle>This page was not found</GioSubtitle>
         <div class="not-found__links">
           <!-- <BackButton dark /> -->
-          <GioButton dark href="/">
-            <GioIcon name="home"></GioIcon>
-            <span>Home</span>
-          </GioButton>
+          <HomeButton dark></HomeButton>
         </div>
       </GioContent>
     </GioSection>
@@ -22,10 +19,9 @@
     GioSection,
     GioContent,
     GioTitle,
-    GioSubtitle,
-    GioButton,
-    GioIcon
+    GioSubtitle
   } from '@gabio/design-svelte'
+  import HomeButton from '../components/buttons/HomeButton.svelte'
 </script>
 
 <style lang="scss">

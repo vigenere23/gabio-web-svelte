@@ -1,7 +1,7 @@
 <GioWebPage>
   <Header />
   <main>
-    <svelte:component this={view} />
+    <svelte:component this={view} {params} />
   </main>
 </GioWebPage>
 
@@ -11,4 +11,5 @@
   import type { SvelteComponent } from 'svelte';
 
   export let view: SvelteComponent
+  export let params = {}
 </script>

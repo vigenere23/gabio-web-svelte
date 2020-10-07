@@ -1,6 +1,7 @@
 import { wrap } from 'svelte-spa-router/wrap'
 import DefaultLayout from './layouts/DefaultLayout.svelte'
 import Home from './views/Home.svelte'
+import Article from './views/Article.svelte'
 import Test from './views/Test.svelte'
 import NotFound from './views/NotFound.svelte'
 
@@ -11,6 +12,12 @@ export const routes = {
     component: DefaultLayout,
     props: {
       view: Home
+    }
+  }),
+  '/article/:id': wrap({
+    component: DefaultLayout,
+    props: {
+      view: Article
     }
   }),
   '/test': wrap({

@@ -8,14 +8,52 @@
       rel="stylesheet"
     />
 
-    <title>Svelte app</title>
+    <title>gab.io</title>
+    <meta
+      name="description"
+      content="Gabriel St-Pierre Software engineering student portfolio"
+    />
+    <meta property="og:title" content="gab.io" />
+    <meta property="og:url" content="https://vigenere23.github.io" />
+    <meta
+      property="og:description"
+      content="Gabriel St-Pierre Software engineering student portfolio"
+    />
+    <meta property="og:image" content="./media.png" />
+    <meta property="og:type" content="profile" />
+    <meta property="profile:first_name" content="Gabriel" />
+    <meta property="profile:last_name" content="St-Pierre" />
+    <meta property="profile:username" content="vigenere23" />
 
-    <link rel="icon" type="image/png" href="./favicon.png" />
+    <link rel="icon" type="image/png" href="./favicon.ico" />
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./build/bundle.css" />
 
     <script defer src="./build/bundle.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-178499318-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-178499318-1')
+    </script>
   </head>
 
-  <body></body>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but this app doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      >
+    </noscript>
+
+    <div id="app"></div>
+  </body>
 </html>

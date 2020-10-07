@@ -26,7 +26,7 @@
     </GioBodyText>
     <GioCard {dark} href="http://google.com" title="Project Luna" desc="Una escapada della teritoria commo esta la vida satina petina magnana" tags={['vue', 'react', 'svelte']}>
       <div slot="image">
-        <GioImage desc="An image" srcs={['images/cooky.png']} objectFit="contain"></GioImage>
+        <GioImage desc="An image" srcs={['images/projects/cooky.png']} objectFit="contain"></GioImage>
       </div>
       <div slot="actions">
         <GioButton size="small" dark="{!dark}"><GioIcon name="github" /><span>Github</span></GioButton>
@@ -34,7 +34,7 @@
     </GioCard>
     <GioCaptionedImage {dark} caption="yoooooooo" width="60%">
       <div slot="image">
-        <GioImage desc="An image" srcs={['images/glow4002.png']}></GioImage>
+        <GioImage desc="An image" srcs={['images/projects/glow4002.png']}></GioImage>
       </div>
     </GioCaptionedImage>
   </GioContent>
