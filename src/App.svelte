@@ -26,6 +26,12 @@
 						<GioListItem>Hello!</GioListItem>
 					</GioList>
 				</GioBodyText>
+				<GioCard href="http://google.com" title="Project Luna" desc="Una escapada della teritoria commo esta la vida satina petina magnana" tags={['vue', 'react', 'svelte']}>
+					<img slot="image" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png">
+					<div slot="actions">
+						<GioButton size="small" dark><GioIcon name="github" /><span>Github</span></GioButton>
+					</div>
+				</GioCard>
 			</GioContent>
 		</GioSection>
 	</GioWebPage>
@@ -49,7 +55,8 @@
 		GioSmartLink,
 		GioIcon,
 		GioList,
-		GioListItem
+		GioListItem,
+		GioCard
 	} from '@gabio/design-svelte'
 
 	const dark = false
