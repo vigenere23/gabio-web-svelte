@@ -1,11 +1,12 @@
 {
   "name": "@gabio/web-svelte",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "build": "npm run build:markdown && npm run build:svelte",
+    "dev": "npm run build:markdown && rollup -c -w",
     "start": "sirv public",
     "validate": "svelte-check",
-    "markdown": "ts-node scripts/build-markdown"
+    "build:markdown": "ts-node scripts/build-markdown",
+    "build:svelte": "rollup -c"
   },
   "devDependencies": {
     "@gabio/markdown-transpiler": "^1.3.1",
@@ -34,7 +35,7 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@gabio/design-svelte": "^1.0.6",
+    "@gabio/design-svelte": "^1.0.7",
     "sirv-cli": "^1.0.0",
     "svelte-spa-router": "^3.0.3"
   }
