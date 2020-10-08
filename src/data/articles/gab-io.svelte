@@ -1,7 +1,7 @@
 <div>
   <GioTitle noMargin fontSize="3rem">gab.io - personnal branding</GioTitle>
 <GioSubtitle>The story behind the brand, the design and the app.</GioSubtitle>
-<GioCaption><GioBodyText>Design library available <GioSmartLink accent href="https://www.npmjs.com/package/@gabio/design-vue">HERE</GioSmartLink>!</GioBodyText>
+<GioCaption><GioBodyText>Design library available for <GioSmartLink accent href="https://www.npmjs.com/package/@gabio/design-vue">Vue</GioSmartLink> and <GioSmartLink accent href="https://www.npmjs.com/package/@gabio/design-svelte">Svelte</GioSmartLink>!</GioBodyText>
 </GioCaption>
 <GioBodyText>
       <GioCaptionedImage caption="gab.io logo">

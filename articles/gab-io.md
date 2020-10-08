@@ -2,7 +2,7 @@
 
 ###### The story behind the brand, the design and the app.
 
-> Design library available [HERE](https://www.npmjs.com/package/@gabio/design-vue)!
+> Design library available for [Vue](https://www.npmjs.com/package/@gabio/design-vue) and [Svelte](https://www.npmjs.com/package/@gabio/design-svelte)!
 
 ![gab.io logo](images/projects/gab-io.png)
 

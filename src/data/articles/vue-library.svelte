@@ -29,6 +29,7 @@
 </GioList></GioBodyText>
 <GioHeading level={2} id="#step-2-building-the-vue-components">Step 2 : building the Vue components</GioHeading>
 <GioBodyText>Since those will be written with Typescript, you will of course need a <GioInlineCode>tsconfig.js</GioInlineCode> file. Ideally, you would want those components in a different folder than</GioBodyText>
+
 </div>
 
 <script lang="ts">
