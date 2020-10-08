@@ -35,7 +35,7 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
-    "@gabio/design-svelte": "^1.0.7",
+    "@gabio/design-svelte": "^1.0.8",
     "sirv-cli": "^1.0.0",
     "svelte-spa-router": "^3.0.3"
   }
