@@ -5,7 +5,7 @@ export const projects = [
     desc:
       'The ideas and prototypes behind the project : A new name, logo, design system and modern Vue app for myself',
     id: 'gab-io',
-    repo: 'https://github.com/vigenere23/gab.io',
+    repo: 'https://github.com/vigenere23/gabio-web-svelte',
     portfolio: 'https://www.behance.net/gallery/95727733/gabio-branding',
     images: ['images/projects/gab-io_thumb.webp', 'images/projects/gab-io.png'],
     categories: ['coding', 'design']
