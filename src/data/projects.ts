@@ -101,88 +101,105 @@ export const projects = [
     notReady: true
   },
   {
-    title: 'FormuleMath',
-    tags: ['redesign', 'web', 'logo'],
+    title: 'Cooky',
+    tags: ['mobile'],
     desc:
-      'Proposition of a new design for both the logo and the website of an inverted-class math teaching platform',
-    id: 'formule-math',
+      'First almost complete design for a mobile app about creating, sharing and saving recipes in a beautiful way.',
+    id: 'cooky_2',
+    portfolio: 'https://www.behance.net/gallery/105982825/Cooky-recipe-sharing',
     images: [
-      'images/projects/formule-math_thumb.webp',
-      'images/projects/formule-math.png'
+      'images/projects/cooky_2_thumb.webp',
+      'images/projects/cooky_2.png'
     ],
-    categories: ['design'],
-    notReady: true
+    categories: ['design']
+  },
+  {
+    title: 'BCT',
+    tags: ['logo', 'youtube'],
+    desc:
+      'Logo for rebranding a Youtube channel about Blocksworld, a game for learning to code with creativity.',
+    id: 'bct',
+    portfolio:
+      'https://www.behance.net/gallery/105981941/BCT-%28Blockworld-coding-tutorials%29',
+    images: ['images/projects/bct_thumb.webp', 'images/projects/bct.png'],
+    categories: ['design']
   },
   {
     title: 'GAB',
     tags: ['logo'],
     desc:
-      'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
+      "First viable logo for a new personal branding. Playing with letter's forms and geometrical shapes.",
     id: 'gab',
+    portfolio:
+      'https://www.behance.net/gallery/105980385/GAB-first-viable-personal-logo',
     images: ['images/projects/gab_thumb.webp', 'images/projects/gab.png'],
-    categories: ['design'],
-    notReady: true
+    categories: ['design']
+  },
+  {
+    title: 'FormuleMath',
+    tags: ['redesign', 'web', 'logo'],
+    desc:
+      'Proposition of a new design for both the logo and the website of an inverted-class math teaching platform',
+    id: 'formule-math',
+    portfolio:
+      'https://www.behance.net/gallery/105979605/FormuleMath-redesign?',
+    images: [
+      'images/projects/formule-math_thumb.webp',
+      'images/projects/formule-math.png'
+    ],
+    categories: ['design']
   },
   {
     title: 'gabcode',
     tags: ['logo'],
     desc:
-      'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
+      'First attempt at personnal branding. Shows my passion for coding and largely inspired by material design.',
     id: 'gabcode',
+    portfolio:
+      'https://www.behance.net/gallery/105981083/gabcode-first-attempt-at-personal-logo',
     images: [
       'images/projects/gabcode_thumb.webp',
       'images/projects/gabcode.png'
     ],
-    categories: ['design'],
-    notReady: true
-  },
-  {
-    title: 'I AM GAB',
-    tags: ['logo'],
-    desc:
-      'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
-    id: 'i-am-gab',
-    images: [
-      'images/projects/i-am-gab_thumb.webp',
-      'images/projects/i-am-gab.png'
-    ],
-    categories: ['design'],
-    notReady: true
-  },
-  {
-    title: 'BCT',
-    tags: ['logo', 'web'],
-    desc:
-      'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
-    id: 'bct',
-    images: ['images/projects/bct_thumb.webp', 'images/projects/bct.png'],
-    categories: ['design'],
-    notReady: true
-  },
-  {
-    title: 'Lolgab123',
-    tags: ['logo'],
-    desc:
-      'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
-    id: 'lolgab123',
-    images: [
-      'images/projects/lolgab123_thumb.webp',
-      'images/projects/lolgab123.png'
-    ],
-    categories: ['design'],
-    notReady: true
-  },
-  {
-    title: 'Creatora',
-    tags: ['logo'],
-    desc:
-      'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
-    id: 'creatora',
-    images: [
-      'images/projects/creatora_thumb.webp',
-      'images/projects/creatora.png'
-    ],
-    categories: ['design'],
-    notReady: true
+    categories: ['design']
   }
+  // {
+  //   title: 'I AM GAB',
+  //   tags: ['logo'],
+  //   desc:
+  //     'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
+  //   id: 'i-am-gab',
+  //   images: [
+  //     'images/projects/i-am-gab_thumb.webp',
+  //     'images/projects/i-am-gab.png'
+  //   ],
+  //   categories: ['design'],
+  //   notReady: true
+  // },
+  // {
+  //   title: 'Lolgab123',
+  //   tags: ['logo'],
+  //   desc:
+  //     'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
+  //   id: 'lolgab123',
+  //   images: [
+  //     'images/projects/lolgab123_thumb.webp',
+  //     'images/projects/lolgab123.png'
+  //   ],
+  //   categories: ['design'],
+  //   notReady: true
+  // },
+  // {
+  //   title: 'Creatora',
+  //   tags: ['logo'],
+  //   desc:
+  //     'lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus',
+  //   id: 'creatora',
+  //   images: [
+  //     'images/projects/creatora_thumb.webp',
+  //     'images/projects/creatora.png'
+  //   ],
+  //   categories: ['design'],
+  //   notReady: true
+  // }
 ]

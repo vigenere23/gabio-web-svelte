@@ -57,7 +57,7 @@
             title={project.title}
             tags={project.tags}
             desc={project.desc}
-            href={articleLink(project.id)}
+            href={project.portfolio || articleLink(project.id)}
             notReady={project.notReady}>
             <div slot="image">
               {#if project.images}
@@ -77,7 +77,7 @@
               {/if}
             </div>
             <div slot="actions">
-              <DetailsButton href={articleLink(project.id)} />
+              <DetailsButton href={project.portfolio || articleLink(project.id)} />
             </div>
           </GioCard>
         {/each}
