@@ -33,9 +33,6 @@
                 ></video>
               {/if}
             </div>
-            <div slot="actions">
-              <DetailsButton dark href={project.notReady ? project.repo : articleLink(project.id)} />
-            </div>
           </GioCard>
         {/each}
       </div>
@@ -76,9 +73,6 @@
                 ></video>
               {/if}
             </div>
-            <div slot="actions">
-              <DetailsButton href={project.portfolio || articleLink(project.id)} />
-            </div>
           </GioCard>
         {/each}
       </div>
@@ -116,7 +110,8 @@
     GioTitle,
     GioSubtitle,
     GioCard,
-    GioImage
+    GioImage,
+    GioIconButton
   } from '@gabio/design-svelte'
   import BehanceButton from '../components/buttons/BehanceButton.svelte';
   import DetailsButton from '../components/buttons/DetailsButton.svelte'
