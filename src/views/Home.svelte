@@ -15,7 +15,7 @@
             title={project.title}
             tags={project.tags}
             desc={project.desc}
-            href={project.notReady ? project.repo : articleLink(project.id)}>
+            href={project.notReady ? '' : project.link}>
             <div slot="image">
               {#if project.images}
                 <GioImage
@@ -54,7 +54,7 @@
             title={project.title}
             tags={project.tags}
             desc={project.desc}
-            href={project.portfolio || articleLink(project.id)}
+            href={project.notReady ? '' : project.link}
             notReady={project.notReady}>
             <div slot="image">
               {#if project.images}
@@ -87,7 +87,25 @@
   <GioSection id="blog">
     <GioContent>
       <GioTitle centered>Blog</GioTitle>
-      <GioSubtitle centered>Coming soon!</GioSubtitle>
+      <div class="home__projects">
+        {#each articles as article}
+          <GioCard
+            title={article.title}
+            tags={article.tags}
+            desc={article.desc}
+            href={`#/article/${article.id}`}>
+            <div slot="image">
+              {#if article.images}
+                <GioImage
+                  lazy
+                  srcs={article.images}
+                  desc={article.title}
+                  objectFit={article.imageSize || 'cover'} />
+              {/if}
+            </div>
+          </GioCard>
+        {/each}
+      </div>
     </GioContent>
   </GioSection>
 
@@ -114,16 +132,14 @@
     GioIconButton
   } from '@gabio/design-svelte'
   import BehanceButton from '../components/buttons/BehanceButton.svelte';
-  import DetailsButton from '../components/buttons/DetailsButton.svelte'
   import GithubButton from '../components/buttons/GithubButton.svelte';
   import EmailButton from '../components/buttons/EmailButton.svelte';
   import LinkedInButton from '../components/buttons/LinkedInButton.svelte';
   import { intro } from '../data/intro'
-  import { projects } from '../data/projects'
+  import { codingProjects } from '../data/coding'
+  import { designProjects } from '../data/design'
+  import { articles } from '../data/blog'
   import { contacts } from '../data/contacts'
-
-  $: codingProjects = projects.filter(project => project.categories.includes('coding'))
-  $: designProjects = projects.filter(project => project.categories.includes('design'))
 
   function articleLink(id: string): string {
     return `#/article/${id}`

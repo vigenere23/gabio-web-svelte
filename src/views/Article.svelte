@@ -33,10 +33,10 @@
     GioIcon
   } from '@gabio/design-svelte'
   import { onMount, SvelteComponent } from 'svelte';
-  import { projects } from '../data/projects'
   import { fromKebabCasetoPascalCase } from '@gabio/design-svelte/lib/strings'
   import * as articleFolder from '../data/articles'
   import HomeButton from '../components/buttons/HomeButton.svelte';
+  import { articles } from '../data/blog'
 
   interface Params {
     id?: string
@@ -57,9 +57,9 @@
       return
     }
 
-    const project = projects.find(project => project.id === params.id)
-    repo = project && project.repo
-    portfolio = project && project.portfolio
+    const articleMeta = articles.find(article => article.id === params.id)
+    repo = articleMeta && articleMeta.repo
+    portfolio = articleMeta && articleMeta.portfolio
     article = articleFile
   })
 </script>

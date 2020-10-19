@@ -1,6 +1,6 @@
 <div>
   <GioTitle noMargin fontSize="3rem">gab.io - personnal branding</GioTitle>
-<GioSubtitle>The story behind the brand, the design and the app.</GioSubtitle>
+<GioSubtitle>The story behind the brand and the design.</GioSubtitle>
 <GioCaption><GioBodyText>Design library available for <GioSmartLink accent href="https://www.npmjs.com/package/@gabio/design-vue">Vue</GioSmartLink> and <GioSmartLink accent href="https://www.npmjs.com/package/@gabio/design-svelte">Svelte</GioSmartLink>!</GioBodyText>
 </GioCaption>
 <GioBodyText>
@@ -62,13 +62,8 @@
         </div>
       </GioCaptionedImage>
 </GioBodyText>
-<GioHeading level={1} id="#web-application">Web application</GioHeading>
-<GioCaption><GioBodyText>Coming soon!</GioBodyText>
-</GioCaption>
-<!--
-### Everything is component
-
-### Markdown to Vue transpiler -->
+<GioHeading level={1} id="#conclusion">Conclusion</GioHeading>
+<GioBodyText>There you go! I hope you enjoyed embarking in this journey with me! Stay tuned for more articles coming about the making of the <GioInlineCode>@gabio</GioInlineCode> ecosystem!</GioBodyText>
 
 </div>
 

@@ -1,6 +1,6 @@
 # gab.io - personnal branding
 
-###### The story behind the brand, the design and the app.
+###### The story behind the brand and the design.
 
 > Design library available for [Vue](https://www.npmjs.com/package/@gabio/design-vue) and [Svelte](https://www.npmjs.com/package/@gabio/design-svelte)!
 
@@ -51,11 +51,6 @@ For the text colors, I'm using transparency instead of the color palette since i
 
 ![Typography (size in px, light and dark)](images/projects/gab-io/typography.png)
 
-## Web application
+## Conclusion
 
-> Coming soon!
-
-<!--
-### Everything is component
-
-### Markdown to Vue transpiler -->
+There you go! I hope you enjoyed embarking in this journey with me! Stay tuned for more articles coming about the making of the `@gabio` ecosystem!
