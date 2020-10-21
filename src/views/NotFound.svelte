@@ -1,5 +1,5 @@
 <div class="not-found">
-  <GioWebPage class="not-found">
+  <GioWebPage>
     <GioSection>
       <GioContent>
         <GioTitle noMargin fontSize="140px">404</GioTitle>
