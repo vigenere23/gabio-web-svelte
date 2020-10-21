@@ -1,4 +1,6 @@
-export const articles = [
+import type { Article } from '../types/Article'
+
+export const articles: Article[] = [
   {
     title: 'gab.io personal branding',
     tags: ['branding', 'design'],

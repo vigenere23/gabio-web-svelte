@@ -8,5 +8,5 @@
 
   const href = 'mailto:gab.stpierre23@gmail.com'
   
-  export let dark = false
+  export let dark: boolean = false
 </script>

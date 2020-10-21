@@ -15,7 +15,7 @@
 <script lang="ts">
   import { GioContent } from '@gabio/design-svelte'
 
-  export let dark = false
+  export let dark: boolean = false
 </script>
 
 <style lang="scss">

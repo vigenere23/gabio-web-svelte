@@ -8,5 +8,5 @@
 
   const href = 'https://github.com/vigenere23'
   
-  export let dark = false
+  export let dark: boolean = false
 </script>

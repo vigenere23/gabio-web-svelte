@@ -8,5 +8,5 @@
 
   const href = 'https://linkedin.com/in/gab-io'
   
-  export let dark = false
+  export let dark: boolean = false
 </script>

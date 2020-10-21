@@ -5,7 +5,6 @@
         <GioTitle noMargin fontSize="140px">404</GioTitle>
         <GioSubtitle>This page was not found</GioSubtitle>
         <div class="not-found__links">
-          <!-- <BackButton dark /> -->
           <HomeButton dark></HomeButton>
         </div>
       </GioContent>

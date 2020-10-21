@@ -7,9 +7,9 @@
 <script lang="ts">
   import { GioSmartLink, GioImage } from '@gabio/design-svelte'
 
-  export let width = '100%'
-  export let link = false
-  export let dark = false
+  export let width: string = '100%'
+  export let link: boolean = false
+  export let dark: boolean = false
 
   $: fileName = `images/logos/logo-${dark ? 'white' : 'black'}`
   $: logos = [`${fileName}_thumb.webp`, `${fileName}.png`]

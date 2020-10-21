@@ -1,20 +1,19 @@
-export const designProjects = [
+import type { Project } from '../types/Project'
+
+export const designProjects: Project[] = [
   {
     title: 'gab.io',
     tags: ['web', 'branding'],
     desc:
       'Creation of an official personnal branding: A new name, logo and design system for a beautiful brand.',
-    id: 'gab-io',
     link: 'https://www.behance.net/gallery/95727733/gabio-branding',
-    images: ['images/projects/gab-io_thumb.webp', 'images/projects/gab-io.png'],
-    categories: ['coding', 'design']
+    images: ['images/projects/gab-io_thumb.webp', 'images/projects/gab-io.png']
   },
   {
     title: 'Cooky',
     tags: ['mobile'],
     desc:
       'First almost complete design for a mobile app about creating, sharing and saving recipes in a beautiful way.',
-    id: 'cooky_2',
     link: 'https://www.behance.net/gallery/105982825/Cooky-recipe-sharing',
     images: [
       'images/projects/cooky_2_thumb.webp',
@@ -26,7 +25,6 @@ export const designProjects = [
     tags: ['logo', 'youtube'],
     desc:
       'Logo for rebranding a Youtube channel about Blocksworld, a game for learning to code with creativity.',
-    id: 'bct',
     link:
       'https://www.behance.net/gallery/105981941/BCT-%28Blockworld-coding-tutorials%29',
     images: ['images/projects/bct_thumb.webp', 'images/projects/bct.png']
@@ -36,7 +34,6 @@ export const designProjects = [
     tags: ['logo'],
     desc:
       "First viable logo for a new personal branding. Playing with letter's forms and geometrical shapes.",
-    id: 'gab',
     link:
       'https://www.behance.net/gallery/105980385/GAB-first-viable-personal-logo',
     images: ['images/projects/gab_thumb.webp', 'images/projects/gab.png']
@@ -46,7 +43,6 @@ export const designProjects = [
     tags: ['redesign', 'web', 'logo'],
     desc:
       'Proposition of a new design for both the logo and the website of an inverted-class math teaching platform.',
-    id: 'formule-math',
     link: 'https://www.behance.net/gallery/105979605/FormuleMath-redesign?',
     images: [
       'images/projects/formule-math_thumb.webp',
@@ -58,7 +54,6 @@ export const designProjects = [
     tags: ['logo'],
     desc:
       'First attempt at personnal branding. Shows my passion for coding and largely inspired by material design.',
-    id: 'gabcode',
     link:
       'https://www.behance.net/gallery/105981083/gabcode-first-attempt-at-personal-logo',
     images: [

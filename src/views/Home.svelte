@@ -93,7 +93,7 @@
             title={article.title}
             tags={article.tags}
             desc={article.desc}
-            href={`#/article/${article.id}`}>
+            href={articleLink(article.id)}>
             <div slot="image">
               {#if article.images}
                 <GioImage
@@ -128,8 +128,7 @@
     GioTitle,
     GioSubtitle,
     GioCard,
-    GioImage,
-    GioIconButton
+    GioImage
   } from '@gabio/design-svelte'
   import BehanceButton from '../components/buttons/BehanceButton.svelte';
   import GithubButton from '../components/buttons/GithubButton.svelte';
@@ -140,9 +139,10 @@
   import { designProjects } from '../data/design'
   import { articles } from '../data/blog'
   import { contacts } from '../data/contacts'
+  import { toSpaRoute } from '@gabio/design-svelte/lib/url'
 
   function articleLink(id: string): string {
-    return `#/article/${id}`
+    return toSpaRoute(`article/${id}`)
   }
 </script>
 

@@ -8,5 +8,5 @@
 
   const href = 'https://behance.net/gab-io'
   
-  export let dark = false
+  export let dark: boolean = false
 </script>
