@@ -5,7 +5,7 @@
         <GioTitle noMargin fontSize="140px">404</GioTitle>
         <GioSubtitle>This page was not found</GioSubtitle>
         <div class="not-found__links">
-          <HomeButton dark></HomeButton>
+          <HomeButton dark />
         </div>
       </GioContent>
     </GioSection>
@@ -28,7 +28,7 @@
     :global(.gio-section) {
       height: 100vh;
     }
-  
+
     :global(.gio-content) {
       height: 100%;
       display: flex;
@@ -36,11 +36,10 @@
       align-items: center;
       justify-content: center;
     }
-  
+
     &__links {
       display: flex;
       justify-content: center;
     }
   }
-  </style>
-  
+</style>

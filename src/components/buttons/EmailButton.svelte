@@ -1,4 +1,4 @@
-<GioButton {dark} href={href}>
+<GioButton {dark} {href}>
   <GioIcon name="envelope" />
   <span>Email</span>
 </GioButton>
@@ -7,6 +7,6 @@
   import { GioButton, GioIcon } from '@gabio/design-svelte'
 
   const href = 'mailto:gab.stpierre23@gmail.com'
-  
+
   export let dark: boolean = false
 </script>

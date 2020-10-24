@@ -1,6 +1,6 @@
 <div class="logo" style="width: {width}">
   <GioSmartLink disable={!link} href="/">
-    <GioImage srcs={logos} desc="Logo"></GioImage>
+    <GioImage srcs={logos} desc="Logo" />
   </GioSmartLink>
 </div>
 

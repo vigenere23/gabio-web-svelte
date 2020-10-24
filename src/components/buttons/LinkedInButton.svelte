@@ -1,4 +1,4 @@
-<GioButton {dark} href={href}>
+<GioButton {dark} {href}>
   <GioIcon name="linkedin-in" />
   <span>LinkedIn</span>
 </GioButton>
@@ -7,6 +7,6 @@
   import { GioButton, GioIcon } from '@gabio/design-svelte'
 
   const href = 'https://linkedin.com/in/gab-io'
-  
+
   export let dark: boolean = false
 </script>

@@ -23,21 +23,22 @@
                   srcs={project.images}
                   desc={project.title}
                   objectFit={project.imageSize || 'cover'} />
-                {:else}
-                  <video
+              {:else}
+                <video
                   class="home__video"
                   src={project.video}
                   loop
                   muted
-                  autoplay
-                ></video>
+                  autoplay />
               {/if}
             </div>
           </GioCard>
         {/each}
       </div>
 
-      <GioSubtitle centered>Want to see more? Here are some places to explore!</GioSubtitle>
+      <GioSubtitle centered>
+        Want to see more? Here are some places to explore!
+      </GioSubtitle>
       <div class="home__links">
         <GithubButton dark />
       </div>
@@ -63,21 +64,22 @@
                   srcs={project.images}
                   desc={project.title}
                   objectFit={project.imageSize || 'cover'} />
-                {:else}
-                  <video
+              {:else}
+                <video
                   class="home__video"
                   src={project.video}
                   loop
                   muted
-                  autoplay
-                ></video>
+                  autoplay />
               {/if}
             </div>
           </GioCard>
         {/each}
       </div>
 
-      <GioSubtitle dark centered>Want to see more? Here are some places to explore!</GioSubtitle>
+      <GioSubtitle dark centered>
+        Want to see more? Here are some places to explore!
+      </GioSubtitle>
       <div class="home__links">
         <BehanceButton />
       </div>
@@ -130,10 +132,10 @@
     GioCard,
     GioImage
   } from '@gabio/design-svelte'
-  import BehanceButton from '../components/buttons/BehanceButton.svelte';
-  import GithubButton from '../components/buttons/GithubButton.svelte';
-  import EmailButton from '../components/buttons/EmailButton.svelte';
-  import LinkedInButton from '../components/buttons/LinkedInButton.svelte';
+  import BehanceButton from '../components/buttons/BehanceButton.svelte'
+  import GithubButton from '../components/buttons/GithubButton.svelte'
+  import EmailButton from '../components/buttons/EmailButton.svelte'
+  import LinkedInButton from '../components/buttons/LinkedInButton.svelte'
   import { intro } from '../data/intro'
   import { codingProjects } from '../data/coding'
   import { designProjects } from '../data/design'
