@@ -33,7 +33,7 @@ jobs:
           cd public
           git init
           git config user.name "vigenere23"
-          git config user.email "lolgab1@hotmail.com"
+          git config user.email "32545895+vigenere23@users.noreply.github.com"
           git add -A
           git commit -m 'deploy'
           git push -f https://x-access-token:${{ secrets.GITHUBIO_DEPLOY }}@github.com/vigenere23/vigenere23.github.io master
