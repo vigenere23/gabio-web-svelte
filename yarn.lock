@@ -862,10 +862,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.32"
 
-"@gabio/design-svelte@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@gabio/design-svelte/-/design-svelte-1.2.1.tgz#0e5b26e12a6c98b686fa153e2f6588e223f87ac7"
-  integrity sha512-aG1Zn95AsPpg5Bdw4JvtfDV4gd90fFuuc/aTPeHVCbOJQfJDUFpXEHKmlDus69xW3w+LLVjcI3qF5sOgvNeXfg==
+"@gabio/design-svelte@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@gabio/design-svelte/-/design-svelte-1.2.2.tgz#122f2bc64a2a164d59ace4b9d3fbf6c2da5b30dd"
+  integrity sha512-pnAMS0+F5ceYKAL67MJq5WPEZtdndWxlAfab58gdCRABpcBVs/ux+nCJBv6/ptBpWBLDiTqKburuU0SgA7CXBA==
 
 "@gabio/markdown-transpiler@^1.5.0":
   version "1.5.0"
