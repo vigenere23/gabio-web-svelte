@@ -32,7 +32,7 @@
     GioButton,
     GioIcon
   } from '@gabio/design-svelte'
-  import { onMount, SvelteComponent } from 'svelte'
+  import { afterUpdate, SvelteComponent } from 'svelte'
   import { fromKebabCasetoPascalCase } from '@gabio/design-svelte/lib/strings'
   import * as articleFolder from '../data/articles'
   import HomeButton from '../components/buttons/HomeButton.svelte'
@@ -48,7 +48,7 @@
 
   export let params: Params = {}
 
-  onMount(() => {
+  afterUpdate(() => {
     const articleName = fromKebabCasetoPascalCase(params.id)
     const articleFile = articleFolder[articleName]
 
