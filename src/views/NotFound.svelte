@@ -1,15 +1,13 @@
 <div class="not-found">
-  <GioWebPage>
-    <GioSection>
-      <GioContent>
-        <GioTitle noMargin fontSize="140px">404</GioTitle>
-        <GioSubtitle>This page was not found</GioSubtitle>
-        <div class="not-found__links">
-          <HomeButton dark />
-        </div>
-      </GioContent>
-    </GioSection>
-  </GioWebPage>
+  <GioSection>
+    <GioContent>
+      <GioTitle noMargin fontSize="140px">404</GioTitle>
+      <GioSubtitle>This page was not found</GioSubtitle>
+      <div class="not-found__links">
+        <HomeButton dark />
+      </div>
+    </GioContent>
+  </GioSection>
 </div>
 
 <script lang="ts">
@@ -25,20 +23,11 @@
 
 <style lang="scss">
   .not-found {
-    :global(.gio-section) {
-      height: 100vh;
-    }
-
-    :global(.gio-content) {
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
+    text-align: center;
 
     &__links {
       display: flex;
+      align-items: center;
       justify-content: center;
     }
   }

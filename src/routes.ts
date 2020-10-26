@@ -27,6 +27,16 @@ export const routes = {
       view: Test
     }
   }),
-  '/404': NotFound,
-  '*': NotFound
+  '/404': wrap({
+    component: DefaultLayout,
+    props: {
+      view: NotFound
+    }
+  }),
+  '*': wrap({
+    component: DefaultLayout,
+    props: {
+      view: NotFound
+    }
+  })
 }
