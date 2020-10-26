@@ -53,7 +53,7 @@
     const articleFile = articleFolder[articleName]
 
     if (!articleFile) {
-      replace('404')
+      replace('/404')
       return
     }
 
