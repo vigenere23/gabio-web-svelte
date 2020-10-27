@@ -1,8 +1,23 @@
-<Router {routes} restoreScrollState on:conditionsFailed={conditionsFailed} />
+<Router
+  {routes}
+  on:routeLoaded={routeLoaded}
+  on:conditionsFailed={conditionsFailed}
+  restoreScrollState />
 
-<script>
+<script lang="ts">
   import Router, { replace } from 'svelte-spa-router'
   import { routes } from './routes'
+
+  function routeLoaded(event: any) {
+    const elementId = event.detail.location.split('#')[1]
+
+    if (elementId) {
+      const element = document.getElementById(elementId)
+      if (element) {
+        setTimeout(() => element.scrollIntoView(true), 300)
+      }
+    }
+  }
 
   function conditionsFailed() {
     replace('/404')

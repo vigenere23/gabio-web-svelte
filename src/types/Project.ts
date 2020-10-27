@@ -6,5 +6,4 @@ export type Project = {
   images?: string[]
   video?: string
   imageSize?: 'cover' | 'contain'
-  notReady?: boolean
 }

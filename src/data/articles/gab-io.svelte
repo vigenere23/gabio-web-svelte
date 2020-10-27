@@ -44,8 +44,8 @@
     sections, I will guide you around the main elements of the brand, the design
     specs, the app developpment, etc.
   </GioBodyText>
-  <GioHeading level={1} id="#branding">Branding</GioHeading>
-  <GioHeading level={2} id="#the-name">The name</GioHeading>
+  <GioHeading level={1} id="branding">Branding</GioHeading>
+  <GioHeading level={2} id="the-name">The name</GioHeading>
   <GioBodyText>
     First off, the name. I&#39;ve searched for one for a long time, fell on
     <em>vigenere23</em>
@@ -73,7 +73,7 @@
     pleased me well enough to start playing with it for a logo, which was the
     second part of this whole process.
   </GioBodyText>
-  <GioHeading level={2} id="#the-logo">The logo</GioHeading>
+  <GioHeading level={2} id="the-logo">The logo</GioHeading>
   <GioBodyText>
     I&#39;ve always liked geometric shapes. They offer a broad range of
     possibilities by their simplicity, plus they are easier to play with. I
@@ -114,8 +114,8 @@
       </div>
     </GioCaptionedImage>
   </GioBodyText>
-  <GioHeading level={1} id="#design-specs">Design specs</GioHeading>
-  <GioHeading level={2} id="#color-scheme">Color scheme</GioHeading>
+  <GioHeading level={1} id="design-specs">Design specs</GioHeading>
+  <GioHeading level={2} id="color-scheme">Color scheme</GioHeading>
   <GioBodyText>
     For the colors, I was inspired by both the
     <strong>One Dark</strong>
@@ -141,7 +141,7 @@
       </div>
     </GioCaptionedImage>
   </GioBodyText>
-  <GioHeading level={2} id="#typography">Typography</GioHeading>
+  <GioHeading level={2} id="typography">Typography</GioHeading>
   <GioBodyText>
     For the main font, I went with
     <GioInlineCode>Roboto</GioInlineCode>
@@ -196,7 +196,7 @@
       </div>
     </GioCaptionedImage>
   </GioBodyText>
-  <GioHeading level={1} id="#conclusion">Conclusion</GioHeading>
+  <GioHeading level={1} id="conclusion">Conclusion</GioHeading>
   <GioBodyText>
     There you go! I hope you enjoyed embarking in this journey with me! Stay
     tuned for more articles coming about the making of the

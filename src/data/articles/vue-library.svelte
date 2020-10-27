@@ -10,7 +10,7 @@
     cards, etc.). That said, I needed to export those components to form what is
     called a &quot;library&quot;.
   </GioBodyText>
-  <GioHeading level={1} id="#solution-1-git-submodule">
+  <GioHeading level={1} id="solution-1-git-submodule">
     Solution 1 : Git submodule
   </GioHeading>
   <GioBodyText>
@@ -36,7 +36,7 @@
     Therefore, while this solution works for your private projects, it will not
     work for usage by the general public.
   </GioBodyText>
-  <GioHeading level={1} id="#solution-2-npm-package">
+  <GioHeading level={1} id="solution-2-npm-package">
     Solution 2 : NPM package
   </GioHeading>
   <GioBodyText>
@@ -45,7 +45,7 @@
     package truly means, which config options you need and how to structure
     everything so that you files are available at the wanted paths.
   </GioBodyText>
-  <GioHeading level={2} id="#step-1-understanding-the-basics">
+  <GioHeading level={2} id="step-1-understanding-the-basics">
     Step 1 : Understanding the basics
   </GioHeading>
   <GioBodyText>
@@ -119,7 +119,7 @@
       </GioListItem>
     </GioList>
   </GioBodyText>
-  <GioHeading level={2} id="#step-2-building-the-vue-components">
+  <GioHeading level={2} id="step-2-building-the-vue-components">
     Step 2 : building the Vue components
   </GioHeading>
   <GioBodyText>

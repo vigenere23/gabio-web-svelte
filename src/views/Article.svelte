@@ -1,30 +1,33 @@
-<TopBar dark>
-  <div slot="left">
-    <HomeButton />
-  </div>
-  <div slot="right">
-    {#if repo}
-      <GioButton href={repo}>
-        <GioIcon name="code" />
-        <span>Source</span>
-      </GioButton>
-    {/if}
-    {#if portfolio}
-      <GioButton href={portfolio} noMarginRight>
-        <GioIcon name="paint-brush" />
-        <span>Portfolio</span>
-      </GioButton>
-    {/if}
-  </div>
-</TopBar>
-<GioSection>
-  <GioContent maxWidth="750px">
-    <svelte:component this={article} />
-  </GioContent>
-</GioSection>
+<DefaultLayout>
+  <TopBar dark>
+    <div slot="left">
+      <HomeButton />
+    </div>
+    <div slot="right">
+      {#if repo}
+        <GioButton href={repo}>
+          <GioIcon name="code" />
+          <span>Source</span>
+        </GioButton>
+      {/if}
+      {#if portfolio}
+        <GioButton href={portfolio} noMarginRight>
+          <GioIcon name="paint-brush" />
+          <span>Portfolio</span>
+        </GioButton>
+      {/if}
+    </div>
+  </TopBar>
+  <GioSection>
+    <GioContent maxWidth="750px">
+      <svelte:component this={article} />
+    </GioContent>
+  </GioSection>
+</DefaultLayout>
 
 <script lang="ts">
   import { replace } from 'svelte-spa-router'
+  import DefaultLayout from '../layouts/DefaultLayout.svelte'
   import TopBar from '../components/TopBar.svelte'
   import {
     GioSection,

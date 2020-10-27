@@ -1,4 +1,4 @@
-<GioButton {dark} href="/">
+<GioButton {dark} href="#/">
   <GioIcon name="home" />
   <span>Home</span>
 </GioButton>
