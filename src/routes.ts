@@ -11,7 +11,7 @@ export const routes: Map<string | RegExp, any> = new Map()
 routes.set('/', Home)
 routes.set('/article/:id', Article)
 // routes.set(/^\/(#.*)?$/, Home)
-// routes.set(/^\/article\/(?<id>(#.*)?)$/, Article)
+// routes.set(/^\/article\/(?<id>)(#.*)?$/, Article)
 routes.set(
   '/test',
   wrap({

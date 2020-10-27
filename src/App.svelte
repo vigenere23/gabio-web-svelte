@@ -9,12 +9,12 @@
   import { routes } from './routes'
 
   function routeLoaded(event: any) {
-    const elementId = event.detail.location.split('#')[1]
+    const elementId = event.detail.location.split('#').pop()
 
     if (elementId) {
       const element = document.getElementById(elementId)
       if (element) {
-        setTimeout(() => element.scrollIntoView(true), 300)
+        element.scrollIntoView(true)
       }
     }
   }
