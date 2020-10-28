@@ -30,7 +30,8 @@
                     src={project.video}
                     loop
                     muted
-                    autoplay />
+                    autoplay
+                    tabindex="-1" />
                 {/if}
               </div>
             </GioCard>
@@ -70,7 +71,8 @@
                     src={project.video}
                     loop
                     muted
-                    autoplay />
+                    autoplay
+                    tabindex="-1" />
                 {/if}
               </div>
             </GioCard>
