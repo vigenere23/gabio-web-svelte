@@ -47,7 +47,7 @@ export class ComponentRegisterer {
 }
 ```
 
-For the text colors, I'm using transparency instead of the color palette since it improves readability on different backgrounds. The base color is `dark-1` (or `light-1`) and is used for headings. The main text has a **`80%`** opacity over the base color to prevent eye fatigue and better adapt to any background. Thirdly, the tertiary text have a **`60%`** opacity and is used for subtitles and other less meaningful informations.
+For the text colors, I'm using transparency instead of the color palette since it improves readability on different backgrounds. The base color is `dark-1` (or `light-1`) and is used for headings. The main text has a `80%` opacity over the base color to prevent eye fatigue and better adapt to any background. Thirdly, the tertiary text have a `60%` opacity and is used for subtitles and other less meaningful informations.
 
 ![Typography (size in px, light and dark)](images/projects/gab-io/typography.png)
 

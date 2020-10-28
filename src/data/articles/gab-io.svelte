@@ -180,10 +180,10 @@
     (or
     <GioInlineCode>light-1</GioInlineCode>) and is used for headings. The main
     text has a
-    <strong><GioInlineCode>80%</GioInlineCode></strong>
+    <GioInlineCode>80%</GioInlineCode>
     opacity over the base color to prevent eye fatigue and better adapt to any
     background. Thirdly, the tertiary text have a
-    <strong><GioInlineCode>60%</GioInlineCode></strong>
+    <GioInlineCode>60%</GioInlineCode>
     opacity and is used for subtitles and other less meaningful informations.
   </GioBodyText>
   <GioBodyText>
