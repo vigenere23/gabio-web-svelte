@@ -144,9 +144,10 @@
   <GioHeading level={2} id="typography">Typography</GioHeading>
   <GioBodyText>
     For the main font, I went with
-    <GioInlineCode>Roboto</GioInlineCode>
-    since it offers amazing readability and support. To get a little punch, I
-    gave a try to
+    <GioInlineCode>IBM Plex Sans</GioInlineCode>, a new typeface that offers
+    amazing readability and support (to replace the classic
+    <GioInlineCode>Roboto</GioInlineCode>). To get a little punch, I gave a try
+    to
     <GioInlineCode>Sen</GioInlineCode>
     bold, modern and geometric sans-serif font. It is distinguishable enough to
     be used in a logo, but yet subtle enough to be used in more text-based
