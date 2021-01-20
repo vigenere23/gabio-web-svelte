@@ -2,6 +2,17 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
+    title: 'SPAMDUL',
+    tags: ['ddd', 'api', 'architecture'],
+    desc:
+      'A complex API in DDD built around clean architecture, aggregates, vertical slicing and SOLID+T principles.',
+    link: 'https://github.com/vigenere23/spamdul',
+    images: [
+      'images/projects/spamdul_thumb.webp',
+      'images/projects/spamdul.png'
+    ]
+  },
+  {
     title: 'gab.io',
     tags: ['web', 'library'],
     desc:
