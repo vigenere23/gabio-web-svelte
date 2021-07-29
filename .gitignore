@@ -1,6 +1,6 @@
 node_modules/
 public/build/
-src/data/articles/
+src/data/articles/*.svelte
 
 .DS_Store
 *.log
