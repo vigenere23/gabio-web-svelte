@@ -54,15 +54,15 @@
   afterUpdate(() => {
     const articleName = fromKebabCasetoPascalCase(params.id)
     const articleFile = articleFolder[articleName]
+    const articleMeta = articles.find((article) => article.id === params.id)
 
-    if (!articleFile) {
+    if (!articleFile || !articleMeta) {
       replace('/404')
       return
     }
 
-    const articleMeta = articles.find((article) => article.id === params.id)
-    repo = articleMeta && articleMeta.repo
-    portfolio = articleMeta && articleMeta.portfolio
+    repo = articleMeta.repo
+    portfolio = articleMeta.portfolio
     article = articleFile
   })
 </script>
