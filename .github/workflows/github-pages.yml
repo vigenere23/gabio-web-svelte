@@ -25,6 +25,9 @@ jobs:
       - name: Installing dependencies
         run: yarn
 
+      - name: Linting
+        run: yarn validate
+
       - name: Building for production
         run: yarn build
 
