@@ -2,6 +2,16 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
+    title: 'Unplash',
+    tags: ['bash', 'python', 'unix'],
+    desc:
+      'A simple cross-platform CLI tool to download and set Unsplash images as wallpapers.',
+    link: 'https://github.com/vigenere23/unsplash',
+    images: [
+      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400'
+    ]
+  },
+  {
     title: 'SPAMDUL',
     tags: ['ddd', 'api', 'architecture'],
     desc:
