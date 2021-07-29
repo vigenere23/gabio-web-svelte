@@ -1,14 +1,14 @@
 import type { Article } from '../types/Article'
 
 export const articles: Article[] = [
-  // {
-  //   title: 'A (real) simple launchd tutorial',
-  //   tags: ['mac OS', 'bash'],
-  //   desc: 'A few tips to help you get started with this MacOS tool.',
-  //   id: 'launchd',
-  //   repo: 'https://github.com/vigenere23/unsplash',
-  //   images: []
-  // },
+  {
+    title: "What launchd doesn't tell you",
+    tags: ['mac OS', 'bash'],
+    desc: 'A few tips to help you get started with this MacOS tool.',
+    id: 'launchd',
+    repo: 'https://github.com/vigenere23/unsplash',
+    images: ['https://images.unsplash.com/photo-1560574188-6a6774965120?w=400']
+  },
   {
     title: 'gab.io personal branding',
     tags: ['branding', 'design'],
