@@ -2,6 +2,18 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
+    title: 'R Docker template',
+    tags: ['R', 'docker', 'template'],
+    desc:
+      'A minimal template for using R with renv inside a Docker image with cache volume, graphics and language server.',
+    link: 'https://github.com/vigenere23/R-docker-template',
+    images: [
+      'images/projects/docker_thumb.webp',
+      'images/projects/docker.webp',
+      'images/projects/docker.png'
+    ]
+  },
+  {
     title: 'Unplash',
     tags: ['bash', 'python', 'unix'],
     desc:
