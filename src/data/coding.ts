@@ -77,38 +77,38 @@ export const codingProjects: Project[] = [
     link: 'https://github.com/vigenere23/cooky',
     images: ['images/projects/cooky_thumb.webp', 'images/projects/cooky.png'],
     imageSize: 'contain'
-  },
-  {
-    title: 'VirtuBois',
-    tags: ['graphical', 'java', 'MVC'],
-    desc:
-      "Java sotware implementing Larman's architecture using JavaFX and GRASP principles to manage a 2D wood yard.",
-    link: 'https://github.com/vigenere23/virtubois',
-    images: [
-      'images/projects/virtubois_thumb.webp',
-      'images/projects/virtubois.png'
-    ]
-  },
-  {
-    title: 'Lost in space',
-    tags: ['fullstack', 'game', 'python'],
-    desc:
-      'Python space ship game project with physics using Pyglet and a socket server for multiplayer gameplay.',
-    link: 'https://github.com/vigenere23/lost-in-space',
-    images: [
-      'images/projects/lost-in-space_thumb.webp',
-      'images/projects/lost-in-space.png'
-    ]
-  },
-  {
-    title: 'Memento',
-    tags: ['fullstack', 'database', 'rails'],
-    desc:
-      'Server-side Ruby on rails app for sharing small memories and thoughts to the world, made in a single week while learning.',
-    link: 'https://github.com/vigenere23/memento',
-    images: [
-      'images/projects/memento_thumb.webp',
-      'images/projects/memento.png'
-    ]
   }
+  // {
+  //   title: 'VirtuBois',
+  //   tags: ['graphical', 'java', 'MVC'],
+  //   desc:
+  //     "Java sotware implementing Larman's architecture using JavaFX and GRASP principles to manage a 2D wood yard.",
+  //   link: 'https://github.com/vigenere23/virtubois',
+  //   images: [
+  //     'images/projects/virtubois_thumb.webp',
+  //     'images/projects/virtubois.png'
+  //   ]
+  // },
+  // {
+  //   title: 'Lost in space',
+  //   tags: ['fullstack', 'game', 'python'],
+  //   desc:
+  //     'Python space ship game project with physics using Pyglet and a socket server for multiplayer gameplay.',
+  //   link: 'https://github.com/vigenere23/lost-in-space',
+  //   images: [
+  //     'images/projects/lost-in-space_thumb.webp',
+  //     'images/projects/lost-in-space.png'
+  //   ]
+  // },
+  // {
+  //   title: 'Memento',
+  //   tags: ['fullstack', 'database', 'rails'],
+  //   desc:
+  //     'Server-side Ruby on rails app for sharing small memories and thoughts to the world, made in a single week while learning.',
+  //   link: 'https://github.com/vigenere23/memento',
+  //   images: [
+  //     'images/projects/memento_thumb.webp',
+  //     'images/projects/memento.png'
+  //   ]
+  // }
 ]

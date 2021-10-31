@@ -9,7 +9,7 @@
 
     <GioSection id="coding">
       <GioContent maxWidth="1100px">
-        <GioTitle centered>Coding projects</GioTitle>
+        <GioTitle centered>💻 Software</GioTitle>
         <div class="home__projects">
           {#each codingProjects as project}
             <GioCard
@@ -49,7 +49,7 @@
 
     <GioSection dark id="design">
       <GioContent maxWidth="1100px">
-        <GioTitle dark centered>Design projects</GioTitle>
+        <GioTitle dark centered>🧶 Design</GioTitle>
         <div class="home__projects">
           {#each designProjects as project}
             <GioCard
@@ -90,7 +90,7 @@
 
     <GioSection id="blog">
       <GioContent>
-        <GioTitle centered>Blog</GioTitle>
+        <GioTitle centered>⌨️ Blog</GioTitle>
         <div class="home__projects">
           {#each articles as article}
             <GioCard
@@ -116,7 +116,7 @@
 
     <GioSection dark id="contact">
       <GioContent>
-        <GioTitle dark centered>Contact</GioTitle>
+        <GioTitle dark centered>🤙 Contact</GioTitle>
         <GioSubtitle dark centered>{contacts.subtitle}</GioSubtitle>
         <div class="home__links">
           <EmailButton />
