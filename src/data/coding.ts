@@ -2,27 +2,39 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
-    title: 'R Docker template',
-    tags: ['R', 'docker', 'template'],
+    title: 'EMG data pipeline',
+    tags: ['multiprocess', 'realtime'],
     desc:
-      'A minimal template for using R with renv inside a Docker image with cache volume, graphics and language server.',
-    link: 'https://github.com/vigenere23/R-docker-template',
+      'Ultra fast, modular and flexible multiprocess data acquisition pipeline for realtime finger predictions from EMG.',
+    link: 'https://github.com/vigenere23/finger-angles-predictions-EMG',
     images: [
-      'images/projects/docker_thumb.webp',
-      'images/projects/docker.webp',
-      'images/projects/docker.png'
+      'images/projects/biomed_thumb.webp',
+      'images/projects/biomed.webp',
+      'images/projects/biomed.png'
     ]
   },
-  {
-    title: 'Unplash',
-    tags: ['bash', 'python', 'unix'],
-    desc:
-      'A simple cross-platform CLI tool to download and set Unsplash images as wallpapers.',
-    link: 'https://github.com/vigenere23/unsplash',
-    images: [
-      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400'
-    ]
-  },
+  // {
+  //   title: 'R Docker template',
+  //   tags: ['R', 'docker', 'template'],
+  //   desc:
+  //     'A minimal template for using R with renv inside a Docker image with cache volume, graphics and language server.',
+  //   link: 'https://github.com/vigenere23/R-docker-template',
+  //   images: [
+  //     'images/projects/docker_thumb.webp',
+  //     'images/projects/docker.webp',
+  //     'images/projects/docker.png'
+  //   ]
+  // },
+  // {
+  //   title: 'Unplash',
+  //   tags: ['bash', 'python', 'unix'],
+  //   desc:
+  //     'A simple cross-platform CLI tool to download and set Unsplash images as wallpapers.',
+  //   link: 'https://github.com/vigenere23/unsplash',
+  //   images: [
+  //     'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400'
+  //   ]
+  // },
   {
     title: 'SPAMDUL',
     tags: ['ddd', 'api', 'architecture'],
@@ -50,14 +62,14 @@ export const codingProjects: Project[] = [
     link: 'https://github.com/vigenere23/psar',
     video: 'images/projects/psar.mp4'
   },
-  {
-    title: 'uBeat',
-    tags: ['frontend', 'auth', 'api'],
-    desc:
-      "Search, save and play any song from iTunes in a clean and modern interface, linked to Spotify's artists API.",
-    link: 'https://github.com/vigenere23/ubeat',
-    images: ['images/projects/ubeat_thumb.webp', 'images/projects/ubeat.png']
-  },
+  // {
+  //   title: 'uBeat',
+  //   tags: ['frontend', 'auth', 'api'],
+  //   desc:
+  //     "Search, save and play any song from iTunes in a clean and modern interface, linked to Spotify's artists API.",
+  //   link: 'https://github.com/vigenere23/ubeat',
+  //   images: ['images/projects/ubeat_thumb.webp', 'images/projects/ubeat.png']
+  // },
   {
     title: 'Glow4002 festival',
     tags: ['ddd', 'backend', 'api', 'tests'],
