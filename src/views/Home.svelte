@@ -151,6 +151,7 @@
   function articleLink(id: string): string {
     return `#/article/${id}`
   }
+
 </script>
 
 <style lang="scss">
@@ -177,4 +178,5 @@
       object-fit: cover;
     }
   }
+
 </style>

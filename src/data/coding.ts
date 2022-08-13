@@ -2,17 +2,35 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
-    title: 'EMG data pipeline',
-    tags: ['multiprocess', 'realtime'],
-    desc:
-      'Ultra fast, modular and flexible multiprocess data acquisition pipeline for realtime finger predictions from EMG.',
-    link: 'https://github.com/vigenere23/finger-angles-predictions-EMG',
+    title: 'Modupipe',
+    tags: ['pipeline', 'library'],
+    desc: 'A small library offering well-designed interfaces and implementations for easily building ETL pipelines.',
+    link: 'https://github.com/vigenere23/modupipe',
     images: [
-      'images/projects/biomed_thumb.webp',
-      'images/projects/biomed.webp',
-      'images/projects/biomed.png'
+      'https://images.unsplash.com/photo-1586057285471-2f78bffaf074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=778&q=80'
     ]
   },
+  {
+    title: 'Unsplash CLI',
+    tags: ['cli', 'bash', 'unix'],
+    desc: 'A simple CLI tool and daemon to download and set Unsplash images as wallpapers, for both Mac and Linux.',
+    link: 'https://github.com/vigenere23/unsplash',
+    images: [
+      'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+    ]
+  },
+  // {
+  //   title: 'EMG data pipeline',
+  //   tags: ['multiprocess', 'realtime'],
+  //   desc:
+  //     'Ultra fast, modular and flexible multiprocess data acquisition pipeline for realtime finger predictions from EMG.',
+  //   link: 'https://github.com/vigenere23/finger-angles-predictions-EMG',
+  //   images: [
+  //     'images/projects/biomed_thumb.webp',
+  //     'images/projects/biomed.webp',
+  //     'images/projects/biomed.png'
+  //   ]
+  // },
   // {
   //   title: 'R Docker template',
   //   tags: ['R', 'docker', 'template'],
@@ -38,8 +56,7 @@ export const codingProjects: Project[] = [
   {
     title: 'SPAMDUL',
     tags: ['ddd', 'api', 'architecture'],
-    desc:
-      'A complex API in DDD built around clean architecture, aggregates, vertical slicing and SOLID+T principles.',
+    desc: 'A complex API in DDD built around clean architecture, aggregates, vertical slicing and SOLID+T principles.',
     link: 'https://github.com/vigenere23/spamdul',
     images: [
       'images/projects/spamdul_thumb.webp',
@@ -49,16 +66,14 @@ export const codingProjects: Project[] = [
   {
     title: 'gab.io',
     tags: ['web', 'library'],
-    desc:
-      'A Frontend ecosystem for building web apps, from killer design libraries to automated tools and best practices.',
+    desc: 'A Frontend ecosystem for building web apps, from killer design libraries to automated tools and best practices.',
     link: 'https://github.com/vigenere23/gabio-design-svelte',
     images: ['images/projects/gab-io_thumb.webp', 'images/projects/gab-io.png']
   },
   {
     title: 'PSAR',
     tags: ['robot', 'fullstack', 'real-time'],
-    desc:
-      'Small robot with artificial intelligence and vision with object detection, pathfinding and real-time communication.',
+    desc: 'Small robot with artificial intelligence and vision with object detection, pathfinding and real-time communication.',
     link: 'https://github.com/vigenere23/psar',
     video: 'images/projects/psar.mp4'
   },
@@ -70,22 +85,20 @@ export const codingProjects: Project[] = [
   //   link: 'https://github.com/vigenere23/ubeat',
   //   images: ['images/projects/ubeat_thumb.webp', 'images/projects/ubeat.png']
   // },
-  {
-    title: 'Glow4002 festival',
-    tags: ['ddd', 'backend', 'api', 'tests'],
-    desc:
-      'Backend domain-driven design with clean architecture in a test-driven-development approach and SOLID principles.',
-    link: 'https://github.com/vigenere23/glow4002',
-    images: [
-      'images/projects/glow4002_thumb.webp',
-      'images/projects/glow4002.png'
-    ]
-  },
+  // {
+  //   title: 'Glow4002 festival',
+  //   tags: ['ddd', 'backend', 'api', 'tests'],
+  //   desc: 'Backend domain-driven design with clean architecture in a test-driven-development approach and SOLID principles.',
+  //   link: 'https://github.com/vigenere23/glow4002',
+  //   images: [
+  //     'images/projects/glow4002_thumb.webp',
+  //     'images/projects/glow4002.png'
+  //   ]
+  // },
   {
     title: 'Cooky',
     tags: ['fullstack', 'data', 'docker'],
-    desc:
-      'Create, share and manage recipes in a beautiful UI, containerised with Docker and with a homemade micro-ORM.',
+    desc: 'Create, share and manage recipes in a beautiful UI, containerised with Docker and with a homemade micro-ORM.',
     link: 'https://github.com/vigenere23/cooky',
     images: ['images/projects/cooky_thumb.webp', 'images/projects/cooky.png'],
     imageSize: 'contain'
