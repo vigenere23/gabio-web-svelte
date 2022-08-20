@@ -2,8 +2,17 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
+    title: 'Discord as Code',
+    tags: ['CLI', 'Rust'],
+    desc: "A simple, easy to use and fast CLI to configure your Discord server's roles and channels, all built in Rust.",
+    link: 'https://github.com/vigenere23/dac',
+    images: [
+      'https://images.unsplash.com/photo-1614680376739-414d95ff43df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80'
+    ]
+  },
+  {
     title: 'Modupipe',
-    tags: ['pipeline', 'library'],
+    tags: ['library', 'pipeline'],
     desc: 'A small library offering well-designed interfaces and implementations for easily building ETL pipelines.',
     link: 'https://github.com/vigenere23/modupipe',
     images: [
@@ -19,18 +28,17 @@ export const codingProjects: Project[] = [
       'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
     ]
   },
-  // {
-  //   title: 'EMG data pipeline',
-  //   tags: ['multiprocess', 'realtime'],
-  //   desc:
-  //     'Ultra fast, modular and flexible multiprocess data acquisition pipeline for realtime finger predictions from EMG.',
-  //   link: 'https://github.com/vigenere23/finger-angles-predictions-EMG',
-  //   images: [
-  //     'images/projects/biomed_thumb.webp',
-  //     'images/projects/biomed.webp',
-  //     'images/projects/biomed.png'
-  //   ]
-  // },
+  {
+    title: 'EMG data pipeline',
+    tags: ['multiprocess', 'realtime'],
+    desc: 'Ultra fast, modular and flexible multiprocess data acquisition pipeline for realtime finger predictions from EMG.',
+    link: 'https://github.com/vigenere23/finger-angles-predictions-EMG',
+    images: [
+      'images/projects/biomed_thumb.webp',
+      'images/projects/biomed.webp',
+      'images/projects/biomed.png'
+    ]
+  },
   // {
   //   title: 'R Docker template',
   //   tags: ['R', 'docker', 'template'],
@@ -43,19 +51,9 @@ export const codingProjects: Project[] = [
   //     'images/projects/docker.png'
   //   ]
   // },
-  // {
-  //   title: 'Unplash',
-  //   tags: ['bash', 'python', 'unix'],
-  //   desc:
-  //     'A simple cross-platform CLI tool to download and set Unsplash images as wallpapers.',
-  //   link: 'https://github.com/vigenere23/unsplash',
-  //   images: [
-  //     'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400'
-  //   ]
-  // },
   {
     title: 'SPAMDUL',
-    tags: ['ddd', 'api', 'architecture'],
+    tags: ['api', 'ddd', 'architecture'],
     desc: 'A complex API in DDD built around clean architecture, aggregates, vertical slicing and SOLID+T principles.',
     link: 'https://github.com/vigenere23/spamdul',
     images: [
@@ -65,7 +63,7 @@ export const codingProjects: Project[] = [
   },
   {
     title: 'gab.io',
-    tags: ['web', 'library'],
+    tags: ['library', 'web'],
     desc: 'A Frontend ecosystem for building web apps, from killer design libraries to automated tools and best practices.',
     link: 'https://github.com/vigenere23/gabio-design-svelte',
     images: ['images/projects/gab-io_thumb.webp', 'images/projects/gab-io.png']
@@ -85,16 +83,16 @@ export const codingProjects: Project[] = [
   //   link: 'https://github.com/vigenere23/ubeat',
   //   images: ['images/projects/ubeat_thumb.webp', 'images/projects/ubeat.png']
   // },
-  // {
-  //   title: 'Glow4002 festival',
-  //   tags: ['ddd', 'backend', 'api', 'tests'],
-  //   desc: 'Backend domain-driven design with clean architecture in a test-driven-development approach and SOLID principles.',
-  //   link: 'https://github.com/vigenere23/glow4002',
-  //   images: [
-  //     'images/projects/glow4002_thumb.webp',
-  //     'images/projects/glow4002.png'
-  //   ]
-  // },
+  {
+    title: 'Glow4002 festival',
+    tags: ['api', 'ddd', 'architecture'],
+    desc: 'Backend domain-driven design with clean architecture in a TDD approach and SOLID principles.',
+    link: 'https://github.com/vigenere23/glow4002',
+    images: [
+      'images/projects/glow4002_thumb.webp',
+      'images/projects/glow4002.png'
+    ]
+  },
   {
     title: 'Cooky',
     tags: ['fullstack', 'data', 'docker'],
