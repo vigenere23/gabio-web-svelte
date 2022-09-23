@@ -2,10 +2,10 @@ import type { Project } from '../types/Project'
 
 export const codingProjects: Project[] = [
   {
-    title: 'Discord as Code',
-    tags: ['CLI', 'Rust'],
-    desc: "A simple, easy to use and fast CLI to configure your Discord server's roles and channels, all built in Rust.",
-    link: 'https://github.com/vigenere23/dac',
+    title: 'Disma',
+    tags: ['CLI', 'Rust', 'diff'],
+    desc: "Manage your Discord server's roles and channels by applying large scale changes using a simple configuration file.",
+    link: 'https://github.com/vigenere23/disma',
     images: [
       'https://images.unsplash.com/photo-1614680376739-414d95ff43df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80'
     ]
