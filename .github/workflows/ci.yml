@@ -11,22 +11,18 @@ jobs:
 
     steps:
       - name: Checking out
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Caching node modules
-        uses: actions/cache@v2
-        env:
-          cache-name: cache-pnpm-modules
+      - name: Caching dependencies
+        uses: actions/setup-node@v3
         with:
-          path: ~/.pnpm-store
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-${{ matrix.node-version }}-
+          node-version: 18
+          cache: pnpm
 
       - name: Installing dependencies
-        uses: pnpm/action-setup@v2.0.1
+        uses: pnpm/action-setup@v2
         with:
-          version: 6.7.6
+          version: 7
           run_install: |
             - args: [--frozen-lockfile]
 
