@@ -13,18 +13,20 @@ jobs:
       - name: Checking out
         uses: actions/checkout@v3
 
-      - name: Caching dependencies
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 7
+          run_install: false
+
+      - name: Setup node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: pnpm
 
       - name: Installing dependencies
-        uses: pnpm/action-setup@v2
-        with:
-          version: 7
-          run_install: |
-            - args: [--frozen-lockfile]
+        run: pnpm install --frozen-lockfile
 
       - name: Linting
         run: pnpm run validate
