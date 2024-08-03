@@ -14,23 +14,23 @@
     "@rollup/plugin-replace": "^2.4.2",
     "@rollup/plugin-terser": "^0.1.0",
     "@tsconfig/svelte": "^1.0.13",
-    "@types/node": "^14.18.34",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.31",
-    "prettier": "^2.8.0",
+    "@types/node": "^14.18.63",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.40",
+    "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^1.4.2",
     "rollup": "^2.79.1",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-node-polyfills": "^0.2.1",
-    "rollup-plugin-sizes": "^1.0.4",
+    "rollup-plugin-sizes": "^1.0.6",
     "rollup-plugin-svelte": "^6.1.1",
-    "rollup-plugin-ts": "^3.0.2",
-    "sass": "^1.56.1",
-    "svelte": "^3.53.1",
+    "rollup-plugin-ts": "^3.4.5",
+    "sass": "^1.77.8",
+    "svelte": "^3.59.2",
     "svelte-check": "^1.6.0",
     "svelte-preprocess": "^4.10.7",
     "ts-node": "^9.1.1",
-    "tslib": "^2.4.1",
+    "tslib": "^2.6.3",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.9.10"
   },
@@ -43,7 +43,8 @@
     "svelte-spa-router": "^3.3.0"
   },
   "engines": {
-    "node": "18.12.1"
+    "node": "20.16.0"
   },
-  "engineStrict": true
+  "engineStrict": true,
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
 }
