@@ -58,6 +58,7 @@ export const codingProjects: Project[] = [
     link: 'https://github.com/vigenere23/spamdul',
     images: [
       'images/projects/spamdul_thumb.webp',
+      'images/projects/spamdul.webp',
       'images/projects/spamdul.png'
     ]
   },
